@@ -1,0 +1,9 @@
+3 steps to solving problems using graph techniques. 
+    1. describe the problem using graph terminology
+        -what are the edges/connections
+
+    2. find a way to represent the graph
+        - create/build graph    
+        - define get neighbors function
+
+    3. run traversals/searches
