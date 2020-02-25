@@ -52,9 +52,7 @@ while len(visited) < len(room_graph) - 1:
         visited[player.current_room.id].remove(previous_direction)
 
     # up until this point we have a BFT
-    # however we need to find ALL rooms.
-    # find num of rooms
-    # check is len(visited) >= len(rooms)
+    # now DFT to find all rooms
 
     # while the len of the visited rooms directions are 0.
     # Reached end, or a dead end
